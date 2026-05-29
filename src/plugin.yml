@@ -1,7 +1,6 @@
 name: FlowerDups
 main: com.zachduda.flowerdups.Main
 version: '${project.version}'
-api-version: 1.20
 prefix: FlowerDups
 softdepend: [ PUUIDs ]
 authors: [ zach_attack ]

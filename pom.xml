@@ -13,7 +13,6 @@
 
     <description>Duplicates flowers when right-clicked with bonemeal.</description>
     <properties>
-        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spigot.version>26.1-R0.1-SNAPSHOT</spigot.version>
     </properties>
@@ -96,10 +95,6 @@
             <id>arim-mvn-lgpl3</id>
             <url>https://mvn-repo.arim.space/lesser-gpl3/</url>
         </repository>
-        <repository>
-            <id>zachduda.com-maven</id>
-            <url>https://maven.zachduda.com/repository/maven-releases/</url>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -118,7 +113,7 @@
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

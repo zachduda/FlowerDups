@@ -1,0 +1,19 @@
+name: FlowerDups
+main: com.zachduda.flowerdups.Main
+version: '${project.version}'
+api-version: 1.20
+prefix: FlowerDups
+softdepend: [ PUUIDs ]
+authors: [ zach_attack ]
+description: Duplicates flowers when right-clicked with bonemeal.
+website: https://zachduda.com/
+commands:
+  reloadflowers:
+    description: Reload the flowers list from endpoint
+    permission: flowerdups.reload
+    usage: /reloadflowers
+
+permissions:
+  flowerdups.reload:
+    description: Allows reloading flowers from endpoint
+    default: op

@@ -64,7 +64,7 @@
                             <relocations>
                                 <relocation>
                                     <pattern>space.arim.morepaperlib</pattern>
-                                    <shadedPattern>com.zachduda.chatfeelings.other.morepaperlib</shadedPattern>
+                                    <shadedPattern>com.zachduda.flowerdups.other.morepaperlib</shadedPattern>
                                 </relocation>
                             </relocations>
                             <minimizeJar>true</minimizeJar>
